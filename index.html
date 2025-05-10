@@ -10,16 +10,18 @@
       background-color: #f7f7f7;
     }
     .caixa {
-      border: 2px solid #000;
+      border: 2px solid #28a745;
       display: inline-block;
       padding: 10px 30px;
-      background-color: #fff;
+      background-color: #28a745;
+      color: white;
       cursor: pointer;
       font-weight: bold;
+      border-radius: 20px;
       transition: background 0.3s;
     }
     .caixa:hover {
-      background-color: #ddd;
+      background-color: #218838;
     }
     #termos {
       white-space: pre-line;
@@ -53,7 +55,7 @@
         botao.innerText = "CONFIRMAR";
         estado = 1;
       } else if (estado === 1) {
-        window.location.href = "https://carijutiquintal33.github.io/Aprovado";
+        window.location.href = "Aprovado.html";  // Redireciona para a página de confirmação
       }
     }
   </script>
